@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Shit {
 
@@ -7,12 +8,25 @@ public class Shit {
         fuck();
         myfavoriteNumb();
     }
-    public static void fuck()
-    {
-       System.out.println("ohhh yahhh");
+
+
+    public static void fuck() {
+        System.out.println("ohhh yahhh");
     }
-    public static int myfavoriteNumb()
-    {
-     return 7;
+
+
+    public static int myfavoriteNumb() {
+        return 7;
     }
+
+
+    public void someMethod() {
+        System.out.println(
+            "This is some method that I wrote to create a merge conflict! Hopefully this works!");
+
+        System.out.println("MOAR CODE!");
+
+        ArrayList<String> temp = new ArrayList<String>();
+    }
+
 }
